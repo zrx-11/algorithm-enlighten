@@ -455,17 +455,29 @@ function renderMermaid(){
   if(!els.length) return;
   const run=()=>{ try{
     mermaid.initialize({startOnLoad:false, theme:document.body.dataset.theme==='dark'?'dark':'default'});
-    els.forEach((el,idx)=>{ try{ el.innerHTML=mermaid.render('mm'+Date.now()+idx, el.textContent); el.dataset.rendered='1'; }
-      catch(e){ el.dataset.rendered='0'; } });
+    els.forEach((el,idx)=>{ try{
+      const out=mermaid.render('mm'+Date.now()+idx, el.textContent);
+      if(out && typeof out.then==='function'){
+        out.then(r=>{ el.innerHTML=r.svg; el.dataset.rendered='1'; }).catch(()=>{ el.dataset.rendered='0'; });
+      } else { el.innerHTML=out; el.dataset.rendered='1'; }
+    } catch(e){ el.dataset.rendered='0'; } });
   }catch(e){} };
   if(window.mermaid){ run(); return; }
   if(mermaidState==='loading') return;
   mermaidState='loading';
-  const s=document.createElement('script');
-  s.src='https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js';
-  s.onload=()=>{ mermaidState='loaded'; run(); };
-  s.onerror=()=>{ mermaidState='failed'; };
-  document.head.appendChild(s);
+  const urls=['https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js',
+              'https://unpkg.com/mermaid@10/dist/mermaid.min.js',
+              'https://registry.npmmirror.com/mermaid/10/files/dist/mermaid.min.js'];
+  let ui=0;
+  const tryNext=()=>{
+    if(ui>=urls.length){ mermaidState='failed'; return; }
+    const s=document.createElement('script');
+    s.src=urls[ui++];
+    s.onload=()=>{ mermaidState='loaded'; run(); };
+    s.onerror=()=>{ s.remove(); tryNext(); };
+    document.head.appendChild(s);
+  };
+  tryNext();
 }
 
 /* ---------- 主题 ---------- */
