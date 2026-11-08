@@ -1,0 +1,1398 @@
+{
+  "slug": "grokking-algorithms",
+  "title": "算法图解 · 点化学习系统",
+  "subtitle": "把《算法图解》编译成零基础可自学的完整课程",
+  "book": {
+    "title": "算法图解（Grokking Algorithms）",
+    "author": "Aditya Bhargava 著，袁国忠 译",
+    "source": [
+      "算法图解 ((美)巴尔加瓦（Aditya Bhargava）著, 袁国忠译).pdf"
+    ]
+  },
+  "audience": "零基础",
+  "goal": "学完全书 11 章，能为常见问题选对数据结构与算法，并手算 BFS/狄克斯特拉/动态规划网格。",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "二分查找与大O：建立速度直觉",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "通过 ch01 自测题（≥80%）"
+    },
+    {
+      "step": "02",
+      "title": "数组、链表与选择排序",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "通过 ch02 自测题"
+    },
+    {
+      "step": "03",
+      "title": "递归与调用栈",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "通过 ch03 自测题"
+    },
+    {
+      "step": "04",
+      "title": "分而治之与快速排序",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "通过 ch04 自测题"
+    },
+    {
+      "step": "05",
+      "title": "散列表：O(1) 的魔法",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "通过 ch05 自测题"
+    },
+    {
+      "step": "06",
+      "title": "图与广度优先搜索",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "通过 ch06 自测题"
+    },
+    {
+      "step": "07",
+      "title": "狄克斯特拉算法",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "通过 ch07 自测题"
+    },
+    {
+      "step": "08",
+      "title": "贪婪算法与 NP 完全",
+      "chapterIds": [
+        "ch08"
+      ],
+      "checkpoint": "通过 ch08 自测题"
+    },
+    {
+      "step": "09",
+      "title": "动态规划",
+      "chapterIds": [
+        "ch09"
+      ],
+      "checkpoint": "通过 ch09 自测题"
+    },
+    {
+      "step": "10",
+      "title": "K 最近邻与机器学习入门",
+      "chapterIds": [
+        "ch10"
+      ],
+      "checkpoint": "通过 ch10 自测题"
+    },
+    {
+      "step": "11",
+      "title": "算法世界地图",
+      "chapterIds": [
+        "ch11"
+      ],
+      "checkpoint": "完成 quiz.md 最终检验项目"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：算法简介",
+      "file": "chapters/ch01-算法简介.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：选择排序",
+      "file": "chapters/ch02-选择排序.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：递归",
+      "file": "chapters/ch03-递归.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：快速排序",
+      "file": "chapters/ch04-快速排序.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：散列表",
+      "file": "chapters/ch05-散列表.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：广度优先搜索",
+      "file": "chapters/ch06-广度优先搜索.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：狄克斯特拉算法",
+      "file": "chapters/ch07-狄克斯特拉算法.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch08",
+      "title": "第 8 章：贪婪算法",
+      "file": "chapters/ch08-贪婪算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch09",
+      "title": "第 9 章：动态规划",
+      "file": "chapters/ch09-动态规划.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch10",
+      "title": "第 10 章：K 最近邻算法",
+      "file": "chapters/ch10-K最近邻算法.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch11",
+      "title": "第 11 章：接下来如何做",
+      "file": "chapters/ch11-接下来如何做.md",
+      "difficulty": 1
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "大O表示法",
+      "file": "concepts/大O表示法.md",
+      "chapterIds": [
+        "ch01",
+        "ch02",
+        "ch04"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "递归与调用栈",
+      "file": "concepts/递归与调用栈.md",
+      "chapterIds": [
+        "ch03",
+        "ch04"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "数组与链表",
+      "file": "concepts/数组与链表.md",
+      "chapterIds": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "散列表",
+      "file": "concepts/散列表.md",
+      "chapterIds": [
+        "ch05",
+        "ch06"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "图与最短路径",
+      "file": "concepts/图与最短路径.md",
+      "chapterIds": [
+        "ch06",
+        "ch07"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "贪婪策略与NP完全",
+      "file": "concepts/贪婪策略与NP完全.md",
+      "chapterIds": [
+        "ch08"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "动态规划",
+      "file": "concepts/动态规划.md",
+      "chapterIds": [
+        "ch09"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "二分查找",
+      "def": "只在有序列表上用，每次猜中间元素砍掉一半范围的查找法",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "对数",
+      "def": "幂运算的逆运算；log₂n 问几个 2 相乘等于 n",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "大O表示法",
+      "def": "描述算法操作数随 n 增速的记号，看最糟情况、忽略常数",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "线性时间 O(n)",
+      "def": "操作数与 n 成正比，如简单查找",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "对数时间 O(log n)",
+      "def": "每翻倍数据量只多一步，如二分查找",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "阶乘时间 O(n!)",
+      "def": "试遍所有排列，如旅行商蛮力解",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "数组",
+      "def": "元素紧挨存放、靠编号直接定位的数据结构",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "链表",
+      "def": "元素散落、每个元素存下一个地址的串联结构",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "索引",
+      "def": "数组元素的位置编号，从 0 开始",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "随机访问",
+      "def": "直接跳到任意位置（数组支持）",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "选择排序",
+      "def": "反复找最小挪到新列表的排序，O(n²)",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "递归",
+      "def": "调用自身的函数",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "基线条件",
+      "def": "递归中不再调用自己、直接返回的刹车",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "栈",
+      "def": "后进先出（LIFO）的数据结构",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "调用栈",
+      "def": "计算机用栈记住每个进行到一半的函数",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "栈溢出",
+      "def": "递归太深调用栈占满内存导致崩溃",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "分而治之 D&C",
+      "def": "找最简基线条件、每次递归缩小问题规模",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "基准值 pivot",
+      "def": "快速排序中被选为分数线的那个元素",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "快速排序",
+      "def": "选基准值分区后递归排序，平均 O(n log n)",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "散列函数",
+      "def": "把任意输入映射为数字；要求一致且均匀",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "散列表",
+      "def": "散列函数 + 数组，查找/插入/删除平均 O(1)",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "冲突",
+      "def": "两个不同的键被散列到同一数组位置",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "填装因子",
+      "def": "已占用位置 ÷ 总位置；>0.7 需扩容",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "图",
+      "def": "由节点和边组成的连接结构",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "节点",
+      "def": "图中的一个点",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "边",
+      "def": "图中两节点之间的连线",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "队列",
+      "def": "先进先出（FIFO）的数据结构",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "广度优先搜索 BFS",
+      "def": "从起点按圈层向外扩展，找段数最短路径",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "拓扑排序",
+      "def": "把依赖图排成被依赖者在前的有序列表",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "权重",
+      "def": "边上的数字，表示距离/时间/费用",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "加权图",
+      "def": "边带权重的图",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "狄克斯特拉算法",
+      "def": "加权图中找总权重最小路径的算法",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "负权边",
+      "def": "权重为负的边；狄克斯特拉失效",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "贪婪算法",
+      "def": "每步选局部最优、拼全局的简单策略",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "近似算法",
+      "def": "精确解太慢时求接近最优的快速解",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "集合覆盖问题",
+      "def": "用最少集合覆盖所有元素的 NP 完全问题",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "NP完全问题",
+      "def": "目前无快速解法、只能近似的难题",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "动态规划",
+      "def": "建网格逐格填子问题最优解的方法",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "最长公共子串",
+      "def": "两字符串中连续相同的最长片段",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "最长公共子序列",
+      "def": "顺序相同、可跳着取的最长公共序列",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "K最近邻 KNN",
+      "def": "找最近 K 个邻居做分类或回归的算法",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "特征",
+      "def": "把物品量化成的一组可比数字",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "分类",
+      "def": "把新样本编入已知类别（投票）",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "回归",
+      "def": "预测一个数值（邻居数值平均）",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "二叉查找树",
+      "def": "左小右大的树；查找平均 O(log n)",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "布隆过滤器",
+      "def": "概率型集合判断：可能错报、绝不漏报",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "SHA",
+      "def": "单向安全散列算法，用于比对文件/存密码",
+      "chapterId": "ch11"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q01",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "含 256 个元素的有序列表，二分查找最多查几次？",
+      "options": [
+        "256",
+        "8",
+        "16",
+        "128"
+      ],
+      "answer": 1,
+      "explain": "log₂256 = 8，因为 2⁸=256，每翻倍一次只多一步。"
+    },
+    {
+      "id": "q02",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "在无序列表里按电话号码反查某人，运行时间是？",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "answer": 1,
+      "explain": "没有有序前提用不了二分查找，只能逐个排查。"
+    },
+    {
+      "id": "q03",
+      "chapterId": "ch01",
+      "type": "blank",
+      "question": "旅行商问题要试遍所有排列，运行时间为 O(____)。",
+      "options": [],
+      "answer": "n!",
+      "explain": "5 城 120 种、6 城 720 种、7 城 5040 种，即 n 的阶乘。"
+    },
+    {
+      "id": "q04",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "在链表中读取第 1000 个元素，最快多久？",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": 2,
+      "explain": "链表只能顺序访问，从第 1 个顺着纸条摸 1000 次。"
+    },
+    {
+      "id": "q05",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "服务员队尾加菜、厨师队首取菜的点菜单队列用什么实现？",
+      "options": [
+        "数组",
+        "链表"
+      ],
+      "answer": 1,
+      "explain": "全程队尾插入+队首删除，正是链表擅长的操作。"
+    },
+    {
+      "id": "q06",
+      "chapterId": "ch02",
+      "type": "blank",
+      "question": "对 n 个元素做选择排序，运行时间是 O(____)。",
+      "options": [],
+      "answer": "n²",
+      "explain": "n 轮 × 每轮 O(n) 找最小；常数 1/2 被大O省略。"
+    },
+    {
+      "id": "q07",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "递归函数必须包含哪两部分？",
+      "options": [
+        "循环与判断",
+        "基线条件与递归条件",
+        "压入与弹出",
+        "输入与输出"
+      ],
+      "answer": 1,
+      "explain": "没有基线条件无限循环，没有递归条件退化成普通函数。"
+    },
+    {
+      "id": "q08",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "栈的取出顺序是？",
+      "options": [
+        "先进先出",
+        "后进先出",
+        "随机",
+        "按大小排序"
+      ],
+      "answer": 1,
+      "explain": "LIFO，像一摞便条纸，最上面先抽走。"
+    },
+    {
+      "id": "q09",
+      "chapterId": "ch03",
+      "type": "blank",
+      "question": "fact(4) = ____。",
+      "options": [],
+      "answer": "24",
+      "explain": "4×3×2×1 = 24。"
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "快速排序的平均运行时间是？",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 2,
+      "explain": "栈高 O(log n) × 每层 O(n)。"
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "只把数组第一个元素乘 2，运行时间是？",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "explain": "只碰一个元素，与 n 无关（原书练习 4.7）。"
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch04",
+      "type": "multi",
+      "question": "关于快速排序，下列说法正确的有？",
+      "options": [
+        "总拿首元素当基准值且输入已排序时会退化到 O(n²)",
+        "随机选基准值能让平均保持 O(n log n)",
+        "快排和合并排序大O相同，快排常数更小所以实战更快",
+        "快速排序永远是 O(n log n)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "D 错——最糟情况是 O(n²)。"
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "平均情况下散列表查找一个键的时间是？",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n²)"
+      ],
+      "answer": 2,
+      "explain": "散列函数一步定位下标，与数据量无关。"
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "投票站要快速判断某人是否投过票，用什么？",
+      "options": [
+        "数组",
+        "链表",
+        "散列表",
+        "栈"
+      ],
+      "answer": 2,
+      "explain": "列表查重 O(n)，散列表 get 一下就知道。"
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch05",
+      "type": "blank",
+      "question": "填装因子超过 ____ 时该给散列表扩容。",
+      "options": [],
+      "answer": "0.7",
+      "explain": "超过后冲突概率明显上升，扩容后因子骤降。"
+    },
+    {
+      "id": "q16",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "广度优先搜索使用什么数据结构？",
+      "options": [
+        "栈",
+        "队列",
+        "散列表",
+        "数组"
+      ],
+      "answer": 1,
+      "explain": "FIFO 保证一度关系先于二度被检查，找到最短路径。"
+    },
+    {
+      "id": "q17",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "BFS 的运行时间通常写作？",
+      "options": [
+        "O(n)",
+        "O(n²)",
+        "O(V + E)",
+        "O(log n)"
+      ],
+      "answer": 2,
+      "explain": "每个顶点入队一次 O(V)，每条边走一次 O(E)。"
+    },
+    {
+      "id": "q18",
+      "chapterId": "ch06",
+      "type": "multi",
+      "question": "关于 BFS，下列说法正确的有？",
+      "options": [
+        "必须标记已检查节点否则可能无限循环",
+        "找到的路径一定是段数最少的",
+        "找到的路径一定是路程最短的",
+        "队列必须按加入顺序取出"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "C 错——BFS 只数段数，不管每段权重；权重不同时用狄克斯特拉。"
+    },
+    {
+      "id": "q19",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "加权图中找总权重最小路径，用什么？",
+      "options": [
+        "BFS",
+        "选择排序",
+        "狄克斯特拉算法",
+        "快速排序"
+      ],
+      "answer": 2,
+      "explain": "BFS 只管段数，不管权重。"
+    },
+    {
+      "id": "q20",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "图中出现负权边时怎么办？",
+      "options": [
+        "照常使用狄克斯特拉",
+        "改用贝尔曼-福德算法",
+        "忽略负权边",
+        "用 BFS"
+      ],
+      "answer": 1,
+      "explain": "负权边破坏已处理即最优的假设。"
+    },
+    {
+      "id": "q21",
+      "chapterId": "ch07",
+      "type": "blank",
+      "question": "狄克斯特拉每步先选出____最低的节点处理。",
+      "options": [],
+      "answer": "开销",
+      "explain": "这是它能保证最优的关键——先封死最便宜的节点。"
+    },
+    {
+      "id": "q22",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "集合覆盖问题的精确解运行时间是？",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(2ⁿ)",
+        "O(log n)"
+      ],
+      "answer": 2,
+      "explain": "幂集有 2ⁿ 个子集要逐个检查。"
+    },
+    {
+      "id": "q23",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "A={1,2,3}, B={2,3,4}，A & B = ?",
+      "options": [
+        "{1,2,3,4}",
+        "{2,3}",
+        "{1,4}",
+        "{1,2,3,2,3,4}"
+      ],
+      "answer": 1,
+      "explain": "交集取共有元素。"
+    },
+    {
+      "id": "q24",
+      "chapterId": "ch08",
+      "type": "multi",
+      "question": "下列哪些是 NP 完全问题的识别线索？",
+      "options": [
+        "n 一大就慢到爆炸",
+        "涉及所有组合或排列",
+        "能拆成独立小问题",
+        "涉及序列或集合且难解"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "C 错——能拆成独立小问题的是 D&C/动态规划的菜，不是 NP 完全。"
+    },
+    {
+      "id": "q25",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "4 磅背包：吉他(1/$1500)、音响(4/$3000)、笔记本(3/$2000)，最优解是？",
+      "options": [
+        "音响 $3000",
+        "吉他+笔记本 $3500",
+        "吉他+音响 $4500",
+        "笔记本 $2000"
+      ],
+      "answer": 1,
+      "explain": "音响占满 4 磅只得 $3000；笔记本 3 磅+吉他 1 磅正好 4 磅，$3500。"
+    },
+    {
+      "id": "q26",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "最长公共子串与最长公共子序列的公式区别在哪个分支？",
+      "options": [
+        "字母相同",
+        "字母不同",
+        "初始化",
+        "无区别"
+      ],
+      "answer": 1,
+      "explain": "不同时子串归 0，子序列取 max（上格, 左格）。"
+    },
+    {
+      "id": "q27",
+      "chapterId": "ch09",
+      "type": "blank",
+      "question": "动态规划每种解法都涉及一张____。",
+      "options": [],
+      "answer": "网格",
+      "explain": "每格代表一个子问题的最优值（原书小结原话）。"
+    },
+    {
+      "id": "q28",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "KNN 做回归时输出什么？",
+      "options": [
+        "投票多数的类别",
+        "最近 K 个邻居数值的平均值",
+        "距离公式",
+        "最大值"
+      ],
+      "answer": 1,
+      "explain": "分类=编组投票，回归=数值平均。"
+    },
+    {
+      "id": "q29",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "原书经验法则：N 个用户时 K 取多少？",
+      "options": [
+        "1",
+        "√N",
+        "N",
+        "log N"
+      ],
+      "answer": 1,
+      "explain": "太少易被异常带偏，太多引入不相似邻居。"
+    },
+    {
+      "id": "q30",
+      "chapterId": "ch10",
+      "type": "blank",
+      "question": "把物品变成一组可比较的数字，这个动作叫____。",
+      "options": [],
+      "answer": "特征抽取",
+      "explain": "如水果的个头+颜色、用户的 5 类电影打分。"
+    },
+    {
+      "id": "q31",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "判断网页是否抓过、容忍偶发错报、极省内存，用什么？",
+      "options": [
+        "散列表",
+        "布隆过滤器",
+        "数组",
+        "快速排序"
+      ],
+      "answer": 1,
+      "explain": "布隆过滤器可能错报但绝不漏报，空间极小。"
+    },
+    {
+      "id": "q32",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "数据库存密码的正确做法是？",
+      "options": [
+        "明文存",
+        "存密码的 SHA 散列值",
+        "Base64 编码",
+        "逆向加密存储"
+      ],
+      "answer": 1,
+      "explain": "SHA 单向，泄露散列值也反推不出原密码。"
+    },
+    {
+      "id": "q33",
+      "chapterId": "ch11",
+      "type": "blank",
+      "question": "MapReduce 的两个核心函数是 map 和 ____。",
+      "options": [],
+      "answer": "reduce",
+      "explain": "map 逐元素同样处理，reduce 把数组归并成一个值。"
+    },
+    {
+      "id": "q34",
+      "chapterId": "ch05",
+      "type": "multi",
+      "question": "你要在 1000 万个用户名里频繁查找且经常有新用户注册。下列哪些是糟糕的选择？",
+      "options": [
+        "散列表",
+        "有序数组+插入后总重排",
+        "链表+简单查找",
+        "二叉查找树"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explain": "B 和 C 都痛：有序数组每次插入要重排，链表查找 O(n)。散列表 O(1) 才对。"
+    },
+    {
+      "id": "q35",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "导航软件在每条路耗时不同的城市里找最快路线，用什么？",
+      "options": [
+        "BFS",
+        "狄克斯特拉",
+        "KNN",
+        "动态规划"
+      ],
+      "answer": 1,
+      "explain": "边带权重→狄克斯特拉；BFS 只数段数。"
+    },
+    {
+      "id": "q36",
+      "chapterId": "ch08",
+      "type": "multi",
+      "question": "下列哪些是 NP 完全问题？",
+      "options": [
+        "A 点到 B 点的最短路线",
+        "经过指定 20 个点的最短路线（旅行商）",
+        "用最少广播台覆盖 50 个州（集合覆盖）",
+        "有序数组里查一个用户名"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explain": "A 和 D 都有快解；B、C 要试遍组合，是 NP 完全。"
+    },
+    {
+      "id": "q37",
+      "chapterId": "ch06",
+      "type": "blank",
+      "question": "把先刷牙才能吃早餐这类依赖排成有序列表，叫____排序。",
+      "options": [],
+      "answer": "拓扑",
+      "explain": "被依赖者在前，任务 A 依赖 B 则 A 排在 B 后。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "chapterId": "ch01",
+      "front": "二分查找对列表有什么硬性前提？",
+      "back": "列表必须有序；无序时只能逐个排查 O(n)。",
+      "tags": [
+        "二分查找"
+      ]
+    },
+    {
+      "id": "f02",
+      "chapterId": "ch01",
+      "front": "含 n 个元素的有序列表二分查找最多几步？",
+      "back": "log₂n 步。128 个元素 7 步，256 个 8 步。",
+      "tags": [
+        "二分查找",
+        "对数"
+      ]
+    },
+    {
+      "id": "f03",
+      "chapterId": "ch01",
+      "front": "大O表示法看最糟还是最佳情况？",
+      "back": "最糟情况——绝不会更差的上限承诺。",
+      "tags": [
+        "大O"
+      ]
+    },
+    {
+      "id": "f04",
+      "chapterId": "ch01",
+      "front": "从快到慢排：O(n) O(log n) O(n!) O(n²) O(n log n)",
+      "back": "O(log n) < O(n) < O(n log n) < O(n²) < O(n!)",
+      "tags": [
+        "大O"
+      ]
+    },
+    {
+      "id": "f05",
+      "chapterId": "ch01",
+      "front": "旅行商 5 个城市有多少种路线？",
+      "back": "5! = 120 种，对应 O(n!)。",
+      "tags": [
+        "旅行商"
+      ]
+    },
+    {
+      "id": "f06",
+      "chapterId": "ch02",
+      "front": "数组和链表各擅长什么？",
+      "back": "数组随机读取 O(1) 快；链表插删 O(1) 快。",
+      "tags": [
+        "数组",
+        "链表"
+      ]
+    },
+    {
+      "id": "f07",
+      "chapterId": "ch02",
+      "front": "数组索引从几开始？",
+      "back": "从 0 开始，第 2 个元素在索引 1。",
+      "tags": [
+        "索引"
+      ]
+    },
+    {
+      "id": "f08",
+      "chapterId": "ch02",
+      "front": "选择排序为什么是 O(n²)？",
+      "back": "每轮找最小 O(n) × 找 n 轮；常数 1/2 被省略。",
+      "tags": [
+        "选择排序"
+      ]
+    },
+    {
+      "id": "f09",
+      "chapterId": "ch03",
+      "front": "递归函数必须有哪两半？",
+      "back": "递归条件（调自己）+ 基线条件（不再调自己）。",
+      "tags": [
+        "递归"
+      ]
+    },
+    {
+      "id": "f10",
+      "chapterId": "ch03",
+      "front": "栈是 FIFO 还是 LIFO？",
+      "back": "LIFO 后进先出；队列才是 FIFO。",
+      "tags": [
+        "栈",
+        "队列"
+      ]
+    },
+    {
+      "id": "f11",
+      "chapterId": "ch03",
+      "front": "无限递归会怎样？",
+      "back": "调用栈无限增厚→栈溢出，程序崩溃。",
+      "tags": [
+        "递归",
+        "调用栈"
+      ]
+    },
+    {
+      "id": "f12",
+      "chapterId": "ch03",
+      "front": "fact(5) = ?",
+      "back": "120（5×4×3×2×1）。",
+      "tags": [
+        "阶乘"
+      ]
+    },
+    {
+      "id": "f13",
+      "chapterId": "ch04",
+      "front": "D&C 分而治之两步是什么？",
+      "back": "①找最简基线条件；②每次递归缩小问题规模。",
+      "tags": [
+        "分而治之"
+      ]
+    },
+    {
+      "id": "f14",
+      "chapterId": "ch04",
+      "front": "快速排序的基线条件？",
+      "back": "数组为空或只有 1 个元素（本来就有序）。",
+      "tags": [
+        "快速排序"
+      ]
+    },
+    {
+      "id": "f15",
+      "chapterId": "ch04",
+      "front": "快排平均/最糟时间？",
+      "back": "平均 O(n log n)；最糟 O(n²)。",
+      "tags": [
+        "快速排序"
+      ]
+    },
+    {
+      "id": "f16",
+      "chapterId": "ch04",
+      "front": "为什么随机选基准值能避开最糟？",
+      "back": "固定取首元素遇已排序输入每次分出空堆；随机选大致平分。",
+      "tags": [
+        "快速排序"
+      ]
+    },
+    {
+      "id": "f17",
+      "chapterId": "ch05",
+      "front": "散列表由哪两样拼成？",
+      "back": "散列函数 + 数组；函数把键算成下标。",
+      "tags": [
+        "散列表"
+      ]
+    },
+    {
+      "id": "f18",
+      "chapterId": "ch05",
+      "front": "散列表平均/最糟操作时间？",
+      "back": "平均 O(1)；最糟 O(n)（全撞车）。",
+      "tags": [
+        "散列表"
+      ]
+    },
+    {
+      "id": "f19",
+      "chapterId": "ch05",
+      "front": "填装因子超过多少要扩容？",
+      "back": "0.7；扩容=数组翻倍+重新散列。",
+      "tags": [
+        "散列表",
+        "填装因子"
+      ]
+    },
+    {
+      "id": "f20",
+      "chapterId": "ch05",
+      "front": "散列表三大用途？",
+      "back": "模拟映射、防止重复、缓存。",
+      "tags": [
+        "散列表"
+      ]
+    },
+    {
+      "id": "f21",
+      "chapterId": "ch05",
+      "front": "两个键撞同一位置怎么办？",
+      "back": "该位置挂链表（拉链法）；链表越短越快。",
+      "tags": [
+        "散列表",
+        "冲突"
+      ]
+    },
+    {
+      "id": "f22",
+      "chapterId": "ch06",
+      "front": "图由哪两种零件组成？",
+      "back": "节点和边；直接相连的互为邻居。",
+      "tags": [
+        "图"
+      ]
+    },
+    {
+      "id": "f23",
+      "chapterId": "ch06",
+      "front": "BFS 为什么必须用队列？",
+      "back": "FIFO 保证一度关系先于二度被检查，找到段数最短。",
+      "tags": [
+        "BFS",
+        "队列"
+      ]
+    },
+    {
+      "id": "f24",
+      "chapterId": "ch06",
+      "front": "BFS 为什么要已检查名单？",
+      "back": "同一节点会被多次指向；不标记可能无限循环。",
+      "tags": [
+        "BFS"
+      ]
+    },
+    {
+      "id": "f25",
+      "chapterId": "ch06",
+      "front": "BFS 运行时间怎么写？",
+      "back": "O(V+E)：V 个顶点各入队一次，E 条边各走一次。",
+      "tags": [
+        "BFS",
+        "大O"
+      ]
+    },
+    {
+      "id": "f26",
+      "chapterId": "ch06",
+      "front": "什么是拓扑排序？",
+      "back": "把依赖图排成被依赖者在前的有序列表。",
+      "tags": [
+        "拓扑排序"
+      ]
+    },
+    {
+      "id": "f27",
+      "chapterId": "ch07",
+      "front": "BFS 和狄克斯特拉各管哪种图？",
+      "back": "BFS 管非加权图数段数；狄克斯特拉管加权图算总权重。",
+      "tags": [
+        "最短路径"
+      ]
+    },
+    {
+      "id": "f28",
+      "chapterId": "ch07",
+      "front": "狄克斯特拉四步？",
+      "back": "选最便宜节点→更新邻居开销→重复→父节点回溯。",
+      "tags": [
+        "狄克斯特拉"
+      ]
+    },
+    {
+      "id": "f29",
+      "chapterId": "ch07",
+      "front": "负权边为什么让狄克斯特拉失效？",
+      "back": "破坏了已处理节点不可能更便宜的假设。",
+      "tags": [
+        "狄克斯特拉"
+      ]
+    },
+    {
+      "id": "f30",
+      "chapterId": "ch07",
+      "front": "含负权边用什么算法？",
+      "back": "贝尔曼-福德算法。",
+      "tags": [
+        "最短路径"
+      ]
+    },
+    {
+      "id": "f31",
+      "chapterId": "ch08",
+      "front": "什么是贪婪算法？",
+      "back": "每步选局部最优，简单快但不保证全局最优。",
+      "tags": [
+        "贪婪算法"
+      ]
+    },
+    {
+      "id": "f32",
+      "chapterId": "ch08",
+      "front": "集合覆盖精确解/贪婪近似大O？",
+      "back": "精确 O(2ⁿ)；贪婪近似 O(n²)。",
+      "tags": [
+        "贪婪算法",
+        "NP完全"
+      ]
+    },
+    {
+      "id": "f33",
+      "chapterId": "ch08",
+      "front": "NP 完全两个经典代表？",
+      "back": "旅行商问题（n!）和集合覆盖问题（2ⁿ）。",
+      "tags": [
+        "NP完全"
+      ]
+    },
+    {
+      "id": "f34",
+      "chapterId": "ch08",
+      "front": "遇到 NP 完全问题怎么应对？",
+      "back": "别死磕精确解，直接设计贪婪近似算法。",
+      "tags": [
+        "贪婪算法"
+      ]
+    },
+    {
+      "id": "f35",
+      "chapterId": "ch09",
+      "front": "动态规划的核心结构？",
+      "back": "一张网格：每行加一个对象，每格填子问题最优值。",
+      "tags": [
+        "动态规划"
+      ]
+    },
+    {
+      "id": "f36",
+      "chapterId": "ch09",
+      "front": "4 磅背包吉他/音响/笔记本最优解？",
+      "back": "吉他+笔记本=4 磅/$3500，不是音响 $3000。",
+      "tags": [
+        "动态规划",
+        "背包"
+      ]
+    },
+    {
+      "id": "f37",
+      "chapterId": "ch09",
+      "front": "动态规划适用前提？",
+      "back": "子问题离散且彼此独立；互相依赖就建不了网格。",
+      "tags": [
+        "动态规划"
+      ]
+    },
+    {
+      "id": "f38",
+      "chapterId": "ch09",
+      "front": "子串和子序列公式在哪分支不同？",
+      "back": "字母不同时：子串归 0；子序列取 max(上,左)。",
+      "tags": [
+        "动态规划"
+      ]
+    },
+    {
+      "id": "f39",
+      "chapterId": "ch10",
+      "front": "KNN 两步流程？",
+      "back": "①抽特征坐标；②找最近 K 个邻居，分类投票/回归平均。",
+      "tags": [
+        "KNN"
+      ]
+    },
+    {
+      "id": "f40",
+      "chapterId": "ch10",
+      "front": "分类和回归的区别？",
+      "back": "分类=编组投票；回归=预测数值（邻居平均）。",
+      "tags": [
+        "KNN"
+      ]
+    },
+    {
+      "id": "f41",
+      "chapterId": "ch10",
+      "front": "K 取多少的经验法则？",
+      "back": "√N 个邻居。",
+      "tags": [
+        "KNN"
+      ]
+    },
+    {
+      "id": "f42",
+      "chapterId": "ch10",
+      "front": "为什么特征选择决定 KNN 成败？",
+      "back": "特征必须与目标相关、不偏不倚；无关特征全是噪声。",
+      "tags": [
+        "KNN",
+        "特征"
+      ]
+    },
+    {
+      "id": "f43",
+      "chapterId": "ch11",
+      "front": "布隆过滤器错报/漏报是什么意思？",
+      "back": "可能错报（说在但不在）；绝不漏报（说不在就肯定不在）。",
+      "tags": [
+        "布隆过滤器"
+      ]
+    },
+    {
+      "id": "f44",
+      "chapterId": "ch11",
+      "front": "SHA 为什么能安全存密码？",
+      "back": "单向：能从密码算散列值，不能反推。",
+      "tags": [
+        "SHA",
+        "安全"
+      ]
+    },
+    {
+      "id": "f45",
+      "chapterId": "ch11",
+      "front": "MapReduce 的 map/reduce 各干什么？",
+      "back": "map=逐元素同样处理；reduce=数组归并成一个值。",
+      "tags": [
+        "MapReduce"
+      ]
+    },
+    {
+      "id": "f46",
+      "chapterId": "ch11",
+      "front": "二叉查找树平均/最糟查找时间？",
+      "back": "平均 O(log n)；不平衡退化 O(n)。",
+      "tags": [
+        "树",
+        "数据结构"
+      ]
+    }
+  ]
+}

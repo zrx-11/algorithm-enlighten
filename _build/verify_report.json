@@ -1,0 +1,117 @@
+[
+ {
+  "check": "首页标题",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "四书卡片数",
+  "pass": true,
+  "extra": "4 张"
+ },
+ {
+  "check": "跨书概念映射表渲染",
+  "pass": true,
+  "extra": "4831 字符"
+ },
+ {
+  "check": "综合检验建议渲染",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "Hello 章节渲染",
+  "pass": true,
+  "extra": "1479 字符"
+ },
+ {
+  "check": "侧栏章节数=17",
+  "pass": true,
+  "extra": "45 项"
+ },
+ {
+  "check": "综合测验题数",
+  "pass": true,
+  "extra": "33 题"
+ },
+ {
+  "check": "测验作答反馈（正确）",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "测验解析出现",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "抽认卡正面",
+  "pass": true,
+  "extra": "二分查找对列表有什么硬性前提？"
+ },
+ {
+  "check": "卡片翻转",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "记住计数+1",
+  "pass": true,
+  "extra": "1"
+ },
+ {
+  "check": "术语表过滤",
+  "pass": true,
+  "extra": "共67，过滤后2（词:算法）"
+ },
+ {
+  "check": "全局搜索命中",
+  "pass": true,
+  "extra": "22 条"
+ },
+ {
+  "check": "进度跨刷新持久",
+  "pass": true,
+  "extra": "《算法（第 4 版）点化学习伴侣》 进度 8% · 已学 2/25 章"
+ },
+ {
+  "check": "学习路径已标记完成",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "深色模式",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "hello/ch05 渲染",
+  "pass": true,
+  "extra": "1556 字符"
+ },
+ {
+  "check": "tujie/ch04 渲染",
+  "pass": true,
+  "extra": "3075 字符"
+ },
+ {
+  "check": "fourth/ch02a 渲染",
+  "pass": true,
+  "extra": "1690 字符"
+ },
+ {
+  "check": "clrs/ch23 渲染",
+  "pass": true,
+  "extra": "1791 字符"
+ },
+ {
+  "check": "单独伴侣链接",
+  "pass": true,
+  "extra": "01-hello%E7%AE%97%E6%B3%95/hello%E7%AE%97%E6%B3%95%E5%AD%A6%"
+ },
+ {
+  "check": "控制台无错误",
+  "pass": true,
+  "extra": ""
+ }
+]

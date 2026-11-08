@@ -1,0 +1,2684 @@
+{
+  "slug": "clrs-companion",
+  "title": "《算法导论（原书第 3 版）》学习伴侣",
+  "subtitle": "零基础点化：从渐近记号到 NP 完全性",
+  "book": {
+    "title": "算法导论（原书第 3 版）",
+    "author": "Cormen / Leiserson / Rivest / Stein",
+    "source": [
+      "算法导论（原书第3版）.pdf"
+    ]
+  },
+  "audience": "零基础",
+  "goal": "系统掌握算法设计与分析的核心方法，能分析复杂度、设计分治/DP/贪心/图算法，并理解 NP 完全性。",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "算法入门",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "02",
+      "title": "算法基础与归并",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "03",
+      "title": "函数增长",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "04",
+      "title": "分治与主方法",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "05",
+      "title": "概率分析",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "06",
+      "title": "堆与堆排序",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "07",
+      "title": "快速排序",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "08",
+      "title": "线性时间排序",
+      "chapterIds": [
+        "ch08"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "09",
+      "title": "顺序统计",
+      "chapterIds": [
+        "ch09"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "10",
+      "title": "基本数据结构",
+      "chapterIds": [
+        "ch10"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "11",
+      "title": "散列表",
+      "chapterIds": [
+        "ch11"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "12",
+      "title": "二叉搜索树",
+      "chapterIds": [
+        "ch12"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "13",
+      "title": "红黑树",
+      "chapterIds": [
+        "ch13"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "14",
+      "title": "数据结构扩张",
+      "chapterIds": [
+        "ch14"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "15",
+      "title": "动态规划",
+      "chapterIds": [
+        "ch15"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "16",
+      "title": "贪心算法",
+      "chapterIds": [
+        "ch16"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "17",
+      "title": "摊还分析",
+      "chapterIds": [
+        "ch17"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "18",
+      "title": "B 树",
+      "chapterIds": [
+        "ch18"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "19",
+      "title": "斐波那契堆",
+      "chapterIds": [
+        "ch19"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "20",
+      "title": "vEB 树",
+      "chapterIds": [
+        "ch20"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "21",
+      "title": "并查集",
+      "chapterIds": [
+        "ch21"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "22",
+      "title": "图搜索",
+      "chapterIds": [
+        "ch22"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "23",
+      "title": "最小生成树",
+      "chapterIds": [
+        "ch23"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "24",
+      "title": "单源最短路",
+      "chapterIds": [
+        "ch24"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "25",
+      "title": "所有点对最短路",
+      "chapterIds": [
+        "ch25"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "26",
+      "title": "最大流",
+      "chapterIds": [
+        "ch26"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "27",
+      "title": "多线程算法",
+      "chapterIds": [
+        "ch27"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "28",
+      "title": "矩阵运算",
+      "chapterIds": [
+        "ch28"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "29",
+      "title": "线性规划",
+      "chapterIds": [
+        "ch29"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "30",
+      "title": "多项式与 FFT",
+      "chapterIds": [
+        "ch30"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "31",
+      "title": "数论与 RSA",
+      "chapterIds": [
+        "ch31"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "32",
+      "title": "字符串匹配",
+      "chapterIds": [
+        "ch32"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "33",
+      "title": "计算几何",
+      "chapterIds": [
+        "ch33"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "34",
+      "title": "NP 完全性",
+      "chapterIds": [
+        "ch34"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "35",
+      "title": "近似算法",
+      "chapterIds": [
+        "ch35"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "36",
+      "title": "附录 A 求和",
+      "chapterIds": [
+        "ch36"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "37",
+      "title": "附录 B 离散数学",
+      "chapterIds": [
+        "ch37"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "38",
+      "title": "附录 C 概率",
+      "chapterIds": [
+        "ch38"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    },
+    {
+      "step": "39",
+      "title": "附录 D 矩阵",
+      "chapterIds": [
+        "ch39"
+      ],
+      "checkpoint": "通过该章自测题（≥80%）"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：算法在计算中的作用",
+      "file": "chapters/ch01-算法在计算中的作用.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：算法基础",
+      "file": "chapters/ch02-算法基础.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：函数的增长",
+      "file": "chapters/ch03-函数的增长.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：分治策略",
+      "file": "chapters/ch04-分治策略.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：概率分析和随机算法",
+      "file": "chapters/ch05-概率分析和随机算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：堆排序",
+      "file": "chapters/ch06-堆排序.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：快速排序",
+      "file": "chapters/ch07-快速排序.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch08",
+      "title": "第 8 章：线性时间排序",
+      "file": "chapters/ch08-线性时间排序.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch09",
+      "title": "第 9 章：中位数和顺序统计量",
+      "file": "chapters/ch09-中位数和顺序统计量.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch10",
+      "title": "第 10 章：基本数据结构",
+      "file": "chapters/ch10-基本数据结构.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch11",
+      "title": "第 11 章：散列表",
+      "file": "chapters/ch11-散列表.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch12",
+      "title": "第 12 章：二叉搜索树",
+      "file": "chapters/ch12-二叉搜索树.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch13",
+      "title": "第 13 章：红黑树",
+      "file": "chapters/ch13-红黑树.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch14",
+      "title": "第 14 章：数据结构的扩张",
+      "file": "chapters/ch14-数据结构的扩张.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch15",
+      "title": "第 15 章：动态规划",
+      "file": "chapters/ch15-动态规划.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch16",
+      "title": "第 16 章：贪心算法",
+      "file": "chapters/ch16-贪心算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch17",
+      "title": "第 17 章：摊还分析",
+      "file": "chapters/ch17-摊还分析.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch18",
+      "title": "第 18 章：B 树",
+      "file": "chapters/ch18-B树.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch19",
+      "title": "第 19 章：斐波那契堆",
+      "file": "chapters/ch19-斐波那契堆.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch20",
+      "title": "第 20 章：van Emde Boas 树",
+      "file": "chapters/ch20-vanEmdeBoas树.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch21",
+      "title": "第 21 章：用于不相交集合的数据结构",
+      "file": "chapters/ch21-用于不相交集合的数据结构.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch22",
+      "title": "第 22 章：基本的图算法",
+      "file": "chapters/ch22-基本的图算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch23",
+      "title": "第 23 章：最小生成树",
+      "file": "chapters/ch23-最小生成树.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch24",
+      "title": "第 24 章：单源最短路径",
+      "file": "chapters/ch24-单源最短路径.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch25",
+      "title": "第 25 章：所有结点对的最短路径",
+      "file": "chapters/ch25-所有结点对的最短路径.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch26",
+      "title": "第 26 章：最大流",
+      "file": "chapters/ch26-最大流.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch27",
+      "title": "第 27 章：多线程算法",
+      "file": "chapters/ch27-多线程算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch28",
+      "title": "第 28 章：矩阵运算",
+      "file": "chapters/ch28-矩阵运算.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch29",
+      "title": "第 29 章：线性规划",
+      "file": "chapters/ch29-线性规划.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch30",
+      "title": "第 30 章：多项式与快速傅里叶变换",
+      "file": "chapters/ch30-多项式与快速傅里叶变换.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch31",
+      "title": "第 31 章：数论算法",
+      "file": "chapters/ch31-数论算法.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch32",
+      "title": "第 32 章：字符串匹配",
+      "file": "chapters/ch32-字符串匹配.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch33",
+      "title": "第 33 章：计算几何学",
+      "file": "chapters/ch33-计算几何学.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch34",
+      "title": "第 34 章：NP 完全性",
+      "file": "chapters/ch34-NP完全性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch35",
+      "title": "第 35 章：近似算法",
+      "file": "chapters/ch35-近似算法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch36",
+      "title": "附录 A：求和",
+      "file": "chapters/ch36-附录A-求和.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch37",
+      "title": "附录 B：集合、关系、函数、图、树",
+      "file": "chapters/ch37-附录B-集合关系函数图树.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch38",
+      "title": "附录 C：计数与概率",
+      "file": "chapters/ch38-附录C-计数与概率.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch39",
+      "title": "附录 D：矩阵",
+      "file": "chapters/ch39-附录D-矩阵.md",
+      "difficulty": 1
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "渐近记号",
+      "file": "concepts/渐近记号.md",
+      "chapterIds": [
+        "ch03"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "递归式与分治",
+      "file": "concepts/递归式与分治.md",
+      "chapterIds": [
+        "ch02",
+        "ch04"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "摊还分析",
+      "file": "concepts/摊还分析.md",
+      "chapterIds": [
+        "ch17"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "平衡搜索树（红黑树与 B 树）",
+      "file": "concepts/平衡搜索树.md",
+      "chapterIds": [
+        "ch13",
+        "ch18"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "散列",
+      "file": "concepts/散列.md",
+      "chapterIds": [
+        "ch11"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "动态规划",
+      "file": "concepts/动态规划.md",
+      "chapterIds": [
+        "ch15"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "贪心算法",
+      "file": "concepts/贪心算法.md",
+      "chapterIds": [
+        "ch16",
+        "ch23",
+        "ch24"
+      ]
+    },
+    {
+      "id": "c08",
+      "title": "图搜索（BFS 与 DFS）",
+      "file": "concepts/图搜索.md",
+      "chapterIds": [
+        "ch22"
+      ]
+    },
+    {
+      "id": "c09",
+      "title": "最小生成树",
+      "file": "concepts/最小生成树.md",
+      "chapterIds": [
+        "ch23"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "最短路径",
+      "file": "concepts/最短路径.md",
+      "chapterIds": [
+        "ch24",
+        "ch25"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "最大流",
+      "file": "concepts/最大流.md",
+      "chapterIds": [
+        "ch26"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "NP 完全性",
+      "file": "concepts/NP完全性.md",
+      "chapterIds": [
+        "ch34",
+        "ch35"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "算法",
+      "def": "把输入映射到输出的确定性指令序列",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "Θ/O/Ω",
+      "def": "渐近精确阶/上界/下界",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "主方法",
+      "def": "给 T(n)=aT(n/b)+f(n) 定阶的三情况表",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "分治",
+      "def": "切分子问题、递归解、合并",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "指示器随机变量",
+      "def": "取值 0/1 的随机变量，用于算期望",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "堆",
+      "def": "父键≥子键的完全二叉树数组",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "优先队列",
+      "def": "支持取最大/最小的队列",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "计数排序",
+      "def": "用计数桶的线性时间排序",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "栈",
+      "def": "后进先出 LIFO",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "队列",
+      "def": "先进先出 FIFO",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "散列函数",
+      "def": "把 key 映射到数组下标的函数",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "碰撞",
+      "def": "不同 key 映到同一槽",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "装载因子",
+      "def": "元素数/槽数",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "二叉搜索树",
+      "def": "左<根<右的二叉树",
+      "chapterId": "ch12"
+    },
+    {
+      "term": "红黑树",
+      "def": "5 条性质保平衡的 BST",
+      "chapterId": "ch13"
+    },
+    {
+      "term": "旋转",
+      "def": "调整树结构保平衡的操作",
+      "chapterId": "ch13"
+    },
+    {
+      "term": "最优子结构",
+      "def": "全局最优含子问题最优",
+      "chapterId": "ch15"
+    },
+    {
+      "term": "重叠子问题",
+      "def": "递归反复用到同一小问题",
+      "chapterId": "ch15"
+    },
+    {
+      "term": "动态规划",
+      "def": "存子问题答案自底向上填表",
+      "chapterId": "ch15"
+    },
+    {
+      "term": "贪心选择性质",
+      "def": "局部最优可推全局最优",
+      "chapterId": "ch16"
+    },
+    {
+      "term": "摊还分析",
+      "def": "一整段操作的平均代价",
+      "chapterId": "ch17"
+    },
+    {
+      "term": "B 树",
+      "def": "多路平衡查找树，磁盘友好",
+      "chapterId": "ch18"
+    },
+    {
+      "term": "斐波那契堆",
+      "def": "松弛堆，decrease-key 均摊 O(1)",
+      "chapterId": "ch19"
+    },
+    {
+      "term": "并查集",
+      "def": "支持 UNION/FIND-SET 的结构",
+      "chapterId": "ch21"
+    },
+    {
+      "term": "路径压缩",
+      "def": "查找时把节点直接挂到根",
+      "chapterId": "ch21"
+    },
+    {
+      "term": "按秩合并",
+      "def": "把矮树挂到高树根下",
+      "chapterId": "ch21"
+    },
+    {
+      "term": "BFS",
+      "def": "广度优先，队列按层扩",
+      "chapterId": "ch22"
+    },
+    {
+      "term": "DFS",
+      "def": "深度优先，栈一条路走到底",
+      "chapterId": "ch22"
+    },
+    {
+      "term": "拓扑排序",
+      "def": "DAG 顶点按完成时间逆序",
+      "chapterId": "ch22"
+    },
+    {
+      "term": "强连通分量",
+      "def": "互相可达的最大顶点集",
+      "chapterId": "ch22"
+    },
+    {
+      "term": "生成树",
+      "def": "连通所有顶点的无环边集",
+      "chapterId": "ch23"
+    },
+    {
+      "term": "切分",
+      "def": "把 V 分成 S 与 V−S",
+      "chapterId": "ch23"
+    },
+    {
+      "term": "松弛",
+      "def": "d[u]+w(u,v)<d[v] 就更新",
+      "chapterId": "ch24"
+    },
+    {
+      "term": "负权回路",
+      "def": "总权为负的环，最短路不存在",
+      "chapterId": "ch24"
+    },
+    {
+      "term": "残留网络",
+      "def": "还能前进+可退流的图",
+      "chapterId": "ch26"
+    },
+    {
+      "term": "增广路",
+      "def": "残留网络中 s→t 路径",
+      "chapterId": "ch26"
+    },
+    {
+      "term": "最大流-最小割",
+      "def": "最大流值=最小 s-t 割容量",
+      "chapterId": "ch26"
+    },
+    {
+      "term": "工作量 T₁",
+      "def": "并行算法全部指令之和",
+      "chapterId": "ch27"
+    },
+    {
+      "term": "持续时间 T∞",
+      "def": "关键路径长度",
+      "chapterId": "ch27"
+    },
+    {
+      "term": "LUP 分解",
+      "def": "PA=LU 三角分解",
+      "chapterId": "ch28"
+    },
+    {
+      "term": "选主元",
+      "def": "换行把最大绝对值换到主元位",
+      "chapterId": "ch28"
+    },
+    {
+      "term": "对称正定矩阵",
+      "def": "A=Aᵀ 且 xᵀAx>0",
+      "chapterId": "ch28"
+    },
+    {
+      "term": "标准型 LP",
+      "def": "max cᵀx, Ax≤b, x≥0",
+      "chapterId": "ch29"
+    },
+    {
+      "term": "单纯形法",
+      "def": "沿可行域顶点爬坡",
+      "chapterId": "ch29"
+    },
+    {
+      "term": "对偶",
+      "def": "LP 的配对问题，最优值相等",
+      "chapterId": "ch29"
+    },
+    {
+      "term": "DFT/FFT",
+      "def": "离散傅里叶变换/快速算法",
+      "chapterId": "ch30"
+    },
+    {
+      "term": "欧几里得算法",
+      "def": "辗转相除求 gcd",
+      "chapterId": "ch31"
+    },
+    {
+      "term": "模逆元",
+      "def": "ax≡1 mod n 的 x",
+      "chapterId": "ch31"
+    },
+    {
+      "term": "反复平方",
+      "def": "O(lg b) 算 aᵇ mod n",
+      "chapterId": "ch31"
+    },
+    {
+      "term": "RSA",
+      "def": "大素数公钥加密",
+      "chapterId": "ch31"
+    },
+    {
+      "term": "前缀函数 π",
+      "def": "KMP 中前 q 字符的最长真前后缀",
+      "chapterId": "ch32"
+    },
+    {
+      "term": "Rabin-Karp",
+      "def": "滚动哈希字符串匹配",
+      "chapterId": "ch32"
+    },
+    {
+      "term": "叉积",
+      "def": "x₁y₂−x₂y₁，符号表转向",
+      "chapterId": "ch33"
+    },
+    {
+      "term": "凸包",
+      "def": "包住所有点的最小凸多边形",
+      "chapterId": "ch33"
+    },
+    {
+      "term": "P",
+      "def": "多项式时间可解类",
+      "chapterId": "ch34"
+    },
+    {
+      "term": "NP",
+      "def": "多项式时间可验证答案类",
+      "chapterId": "ch34"
+    },
+    {
+      "term": "NPC",
+      "def": "NP 中最难，所有 NP 可归约到它",
+      "chapterId": "ch34"
+    },
+    {
+      "term": "多项式归约",
+      "def": "A 输入多项式变 B 输入",
+      "chapterId": "ch34"
+    },
+    {
+      "term": "Cook-Levin",
+      "def": "SAT 是首个 NPC 证明",
+      "chapterId": "ch34"
+    },
+    {
+      "term": "近似比 ρ",
+      "def": "算法解/最优解的最坏比值",
+      "chapterId": "ch35"
+    },
+    {
+      "term": "FPTAS",
+      "def": "完全多项式近似方案",
+      "chapterId": "ch35"
+    },
+    {
+      "term": "等比级数",
+      "def": "Σ xᵏ 求和公式",
+      "chapterId": "ch36"
+    },
+    {
+      "term": "等价关系",
+      "def": "自反+对称+传递",
+      "chapterId": "ch37"
+    },
+    {
+      "term": "双射",
+      "def": "既单又满的函数",
+      "chapterId": "ch37"
+    },
+    {
+      "term": "二项分布",
+      "def": "n 次伯努利成功 k 次",
+      "chapterId": "ch38"
+    },
+    {
+      "term": "期望线性",
+      "def": "E[aX+bY]=aE[X]+bE[Y]",
+      "chapterId": "ch38"
+    },
+    {
+      "term": "行列式",
+      "def": "可逆当且仅当 det≠0",
+      "chapterId": "ch39"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q001",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "算法是什么？",
+      "options": [
+        "一种数据结构",
+        "把输入映射到输出的确定性指令序列",
+        "一种编程语言",
+        "一种图形界面"
+      ],
+      "answer": 1,
+      "explain": "算法是定义良好的计算指令，把输入变输出。"
+    },
+    {
+      "id": "q002",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "归并排序的递归式是？",
+      "options": [
+        "T(n)=T(n/2)+n",
+        "T(n)=2T(n/2)+Θ(n)",
+        "T(n)=T(n−1)+n",
+        "T(n)=n²"
+      ],
+      "answer": 1,
+      "explain": "归并排序切两半递归、合并 Θ(n)，解为 Θ(n lg n)。"
+    },
+    {
+      "id": "q003",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "f(n)=n²+100n 是哪个渐近阶？",
+      "options": [
+        "O(n)",
+        "Θ(n²)",
+        "Θ(n³)",
+        "O(1)"
+      ],
+      "answer": 1,
+      "explain": "最高次项 n² 主导，Θ(n²)。"
+    },
+    {
+      "id": "q004",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "T(n)=7T(n/2)+Θ(n²) 的解是？",
+      "options": [
+        "Θ(n²)",
+        "Θ(n^{lg7})",
+        "Θ(n² lg n)",
+        "Θ(n³)"
+      ],
+      "answer": 1,
+      "explain": "主方法情况 1：n^{log₂7}≈n^{2.81} 主导。"
+    },
+    {
+      "id": "q005",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "指示器随机变量主要用来？",
+      "options": [
+        "排序",
+        "算期望",
+        "散列",
+        "旋转"
+      ],
+      "answer": 1,
+      "explain": "把事件拆成 0/1 变量，用期望线性求期望。"
+    },
+    {
+      "id": "q006",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "堆中父结点 i 的左孩子下标是？",
+      "options": [
+        "i+1",
+        "2i",
+        "i/2",
+        "2i+1"
+      ],
+      "answer": 1,
+      "explain": "完全二叉树数组表示，左孩子 2i，右孩子 2i+1。"
+    },
+    {
+      "id": "q007",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "快速排序最坏时间是？",
+      "options": [
+        "Θ(n lg n)",
+        "Θ(n²)",
+        "Θ(n)",
+        "Θ(lg n)"
+      ],
+      "answer": 1,
+      "explain": "已排序输入+选首元素为枢轴时退化成 Θ(n²)。"
+    },
+    {
+      "id": "q008",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "计数排序适合什么数据？",
+      "options": [
+        "任意浮点数",
+        "范围 [0,k] 的整数",
+        "字符串",
+        "链表"
+      ],
+      "answer": 1,
+      "explain": "计数排序要求键是小范围整数才能线性。"
+    },
+    {
+      "id": "q009",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "最坏线性时间选择算法是？",
+      "options": [
+        "快排",
+        "BFPRT（中位数的中位数）",
+        "归并",
+        "堆排"
+      ],
+      "answer": 1,
+      "explain": "BFPRT 保证最坏 Θ(n)。"
+    },
+    {
+      "id": "q010",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "栈的访问规则是？",
+      "options": [
+        "FIFO",
+        "LIFO",
+        "随机",
+        "有序"
+      ],
+      "answer": 1,
+      "explain": "栈后进先出（LIFO）。"
+    },
+    {
+      "id": "q011",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "散列表期望查找复杂度是？",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(lg n)",
+        "O(n²)"
+      ],
+      "answer": 1,
+      "explain": "简单均匀散列下期望 O(1)。"
+    },
+    {
+      "id": "q012",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "二叉搜索树左子树键与根的关系？",
+      "options": [
+        "大于根",
+        "小于根",
+        "等于根",
+        "无关"
+      ],
+      "answer": 1,
+      "explain": "BST 性质：左<根<右。"
+    },
+    {
+      "id": "q013",
+      "chapterId": "ch13",
+      "type": "single",
+      "question": "红黑树插入后怎么恢复平衡？",
+      "options": [
+        "重建整树",
+        "旋转+重新染色",
+        "删除所有结点",
+        "排序"
+      ],
+      "answer": 1,
+      "explain": "通过旋转和重新染色恢复 5 条性质。"
+    },
+    {
+      "id": "q014",
+      "chapterId": "ch14",
+      "type": "single",
+      "question": "顺序统计树支持什么操作？",
+      "options": [
+        "O(1) 查找",
+        "O(lg n) 选第 k 小",
+        "O(n) 排序",
+        "O(1) 插入"
+      ],
+      "answer": 1,
+      "explain": "在 BST 结点存子树大小，支持 O(lg n) 顺序统计。"
+    },
+    {
+      "id": "q015",
+      "chapterId": "ch15",
+      "type": "single",
+      "question": "动态规划两个适用条件是？",
+      "options": [
+        "贪心+递归",
+        "最优子结构+重叠子问题",
+        "分治+排序",
+        "随机+散列"
+      ],
+      "answer": 1,
+      "explain": "DP 必须同时有这两个条件。"
+    },
+    {
+      "id": "q016",
+      "chapterId": "ch16",
+      "type": "single",
+      "question": "活动选择贪心每次选什么？",
+      "options": [
+        "开始最早",
+        "结束最早的兼容活动",
+        "时长最短",
+        "任意"
+      ],
+      "answer": 1,
+      "explain": "选结束最早的为后续活动留最多时间。"
+    },
+    {
+      "id": "q017",
+      "chapterId": "ch17",
+      "type": "single",
+      "question": "动态表扩张的摊还代价是？",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(lg n)",
+        "O(n²)"
+      ],
+      "answer": 1,
+      "explain": "翻倍均摊后每次插入均摊 O(1)。"
+    },
+    {
+      "id": "q018",
+      "chapterId": "ch18",
+      "type": "single",
+      "question": "B 树主要为哪种存储设计？",
+      "options": [
+        "内存",
+        "磁盘块",
+        "寄存器",
+        "缓存"
+      ],
+      "answer": 1,
+      "explain": "B 树结点大小对应磁盘块，减少 I/O。"
+    },
+    {
+      "id": "q019",
+      "chapterId": "ch19",
+      "type": "single",
+      "question": "斐波那契堆减小键值的摊还代价是？",
+      "options": [
+        "O(lg n)",
+        "O(1)",
+        "O(n)",
+        "O(log log n)"
+      ],
+      "answer": 1,
+      "explain": "斐波那契堆的核心优势：decrease-key 均摊 O(1)。"
+    },
+    {
+      "id": "q020",
+      "chapterId": "ch20",
+      "type": "single",
+      "question": "van Emde Boas 树操作复杂度是？",
+      "options": [
+        "O(lg n)",
+        "O(lg lg u)",
+        "O(1)",
+        "O(n)"
+      ],
+      "answer": 1,
+      "explain": "对整数域 u，vEB 递归分组给出 O(lg lg u)。"
+    },
+    {
+      "id": "q021",
+      "chapterId": "ch21",
+      "type": "single",
+      "question": "并查集两种优化是？",
+      "options": [
+        "排序+二分",
+        "按秩合并+路径压缩",
+        "旋转+染色",
+        "堆+队列"
+      ],
+      "answer": 1,
+      "explain": "这两种优化给出近似 O(α(n))。"
+    },
+    {
+      "id": "q022",
+      "chapterId": "ch22",
+      "type": "single",
+      "question": "BFS 用什么数据结构？",
+      "options": [
+        "栈",
+        "队列",
+        "堆",
+        "散列表"
+      ],
+      "answer": 1,
+      "explain": "BFS 用队列按层扩展。"
+    },
+    {
+      "id": "q023",
+      "chapterId": "ch23",
+      "type": "single",
+      "question": "MST 恰好包含多少条边？",
+      "options": [
+        "|V|",
+        "|V|−1",
+        "|E|",
+        "|E|−1"
+      ],
+      "answer": 1,
+      "explain": "生成树连通无环，恰好 |V|−1 条边。"
+    },
+    {
+      "id": "q024",
+      "chapterId": "ch24",
+      "type": "single",
+      "question": "Dijkstra 算法要求边权满足？",
+      "options": [
+        "任意实数",
+        "非负",
+        "全为 0",
+        "全为负"
+      ],
+      "answer": 1,
+      "explain": "非负权保证「先定死最小 d」正确。"
+    },
+    {
+      "id": "q025",
+      "chapterId": "ch25",
+      "type": "single",
+      "question": "Floyd-Warshall 算法复杂度是？",
+      "options": [
+        "O(n²)",
+        "Θ(n³)",
+        "O(VE)",
+        "O(n lg n)"
+      ],
+      "answer": 1,
+      "explain": "三重循环 Θ(n³)。"
+    },
+    {
+      "id": "q026",
+      "chapterId": "ch26",
+      "type": "single",
+      "question": "最大流-最小割定理说最大流等于？",
+      "options": [
+        "边数",
+        "最小 s-t 割容量",
+        "顶点数",
+        "最大边容量"
+      ],
+      "answer": 1,
+      "explain": "最大流值 = 最小割容量。"
+    },
+    {
+      "id": "q027",
+      "chapterId": "ch27",
+      "type": "single",
+      "question": "并行算法的持续时间 T∞ 指？",
+      "options": [
+        "总指令数",
+        "关键路径长度",
+        "处理器个数",
+        "内存大小"
+      ],
+      "answer": 1,
+      "explain": "T∞ 是关键路径（串行瓶颈）长度。"
+    },
+    {
+      "id": "q028",
+      "chapterId": "ch28",
+      "type": "single",
+      "question": "LUP 分解中的 P 表示？",
+      "options": [
+        "逆矩阵",
+        "置换矩阵",
+        "投影",
+        "概率"
+      ],
+      "answer": 1,
+      "explain": "P 记录选主元时的换行。"
+    },
+    {
+      "id": "q029",
+      "chapterId": "ch29",
+      "type": "single",
+      "question": "单纯形法沿什么搜索最优？",
+      "options": [
+        "随机方向",
+        "可行域顶点",
+        "梯度",
+        "对角线"
+      ],
+      "answer": 1,
+      "explain": "从顶点沿边爬到更优相邻顶点。"
+    },
+    {
+      "id": "q030",
+      "chapterId": "ch30",
+      "type": "single",
+      "question": "FFT 把 DFT 复杂度降到？",
+      "options": [
+        "O(n²)",
+        "O(n lg n)",
+        "O(n)",
+        "O(n log log n)"
+      ],
+      "answer": 1,
+      "explain": "分治 T(n)=2T(n/2)+O(n)。"
+    },
+    {
+      "id": "q031",
+      "chapterId": "ch31",
+      "type": "single",
+      "question": "RSA 的安全性依赖于？",
+      "options": [
+        "求逆元难",
+        "大整数因子分解难",
+        "模运算慢",
+        "加法难"
+      ],
+      "answer": 1,
+      "explain": "从 n=pq 反推 p、q 目前无多项式算法。"
+    },
+    {
+      "id": "q032",
+      "chapterId": "ch32",
+      "type": "single",
+      "question": "KMP 失配时主串指针回退吗？",
+      "options": [
+        "回退一格",
+        "不回退",
+        "回退到起点",
+        "随机"
+      ],
+      "answer": 1,
+      "explain": "主串 i 永不回退，模式串用 π 跳。"
+    },
+    {
+      "id": "q033",
+      "chapterId": "ch33",
+      "type": "single",
+      "question": "二维叉积的符号判断什么？",
+      "options": [
+        "大小",
+        "转向（左/右）",
+        "长度",
+        "颜色"
+      ],
+      "answer": 1,
+      "explain": "叉积符号表从 p₁ 到 p₂ 的转向。"
+    },
+    {
+      "id": "q034",
+      "chapterId": "ch34",
+      "type": "single",
+      "question": "证明新问题是 NPC 靠什么？",
+      "options": [
+        "设计多项式算法",
+        "多项式时间归约",
+        "随机化",
+        "排序"
+      ],
+      "answer": 1,
+      "explain": "把已知 NPC 问题多项式归约到新问题。"
+    },
+    {
+      "id": "q035",
+      "chapterId": "ch35",
+      "type": "single",
+      "question": "顶点覆盖 2-近似算法的近似比是？",
+      "options": [
+        "1",
+        "2",
+        "lg n",
+        "n"
+      ],
+      "answer": 1,
+      "explain": "极大匹配两端点入集，|C|≤2|C*|。"
+    },
+    {
+      "id": "q036",
+      "chapterId": "ch36",
+      "type": "single",
+      "question": "Σ_{k=1}^{n} k 的渐近阶是？",
+      "options": [
+        "Θ(n)",
+        "Θ(n²)",
+        "Θ(n³)",
+        "Θ(lg n)"
+      ],
+      "answer": 1,
+      "explain": "等差级数 n(n+1)/2=Θ(n²)。"
+    },
+    {
+      "id": "q037",
+      "chapterId": "ch37",
+      "type": "single",
+      "question": "自反+对称+传递的关系叫？",
+      "options": [
+        "偏序",
+        "等价关系",
+        "函数",
+        "空关系"
+      ],
+      "answer": 1,
+      "explain": "三者同时成立即等价关系。"
+    },
+    {
+      "id": "q038",
+      "chapterId": "ch38",
+      "type": "single",
+      "question": "期望线性 E[X+Y]=E[X]+E[Y] 要求什么？",
+      "options": [
+        "X、Y 独立",
+        "无要求",
+        "X、Y 同分布",
+        "X、Y 不相关"
+      ],
+      "answer": 1,
+      "explain": "期望线性从不要求独立。"
+    },
+    {
+      "id": "q039",
+      "chapterId": "ch39",
+      "type": "single",
+      "question": "矩阵 A 可逆当且仅当？",
+      "options": [
+        "A=Aᵀ",
+        "det(A)≠0",
+        "A 全为正",
+        "A 是 3×3"
+      ],
+      "answer": 1,
+      "explain": "行列式非零是可逆的充要条件。"
+    },
+    {
+      "id": "q040",
+      "chapterId": "__all__",
+      "type": "single",
+      "question": "下列哪个算法不基于贪心？",
+      "options": [
+        "Kruskal MST",
+        "Dijkstra",
+        "赫夫曼编码",
+        "矩阵链乘 DP"
+      ],
+      "answer": 3,
+      "explain": "矩阵链乘是动态规划（填表），不是贪心。"
+    },
+    {
+      "id": "q041",
+      "chapterId": "__all__",
+      "type": "single",
+      "question": "下列哪个问题是 NP 完全的？",
+      "options": [
+        "最短路径",
+        "最小生成树",
+        "哈密顿回路",
+        "排序"
+      ],
+      "answer": 2,
+      "explain": "哈密顿回路是 NPC；其他都是 P。"
+    },
+    {
+      "id": "q042",
+      "chapterId": "__all__",
+      "type": "single",
+      "question": "关于 Dijkstra 与 Bellman-Ford，正确的是？",
+      "options": [
+        "都容负权边",
+        "Dijkstra 不容负权边",
+        "Bellman-Ford 更快",
+        "都需要拓扑排序"
+      ],
+      "answer": 1,
+      "explain": "Dijkstra 要求非负权；Bellman-Ford 容负权边。"
+    },
+    {
+      "id": "q043",
+      "chapterId": "__all__",
+      "type": "single",
+      "question": "最大流可直接用来求解？",
+      "options": [
+        "二分图最大匹配",
+        "最短路",
+        "排序",
+        "凸包"
+      ],
+      "answer": 0,
+      "explain": "二分匹配可归约为最大流（边容量 1）。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f001",
+      "chapterId": "ch01",
+      "front": "算法的本质是什么？",
+      "back": "把输入映射到输出的确定性指令序列。",
+      "tags": [
+        "基础",
+        "定义"
+      ]
+    },
+    {
+      "id": "f002",
+      "chapterId": "ch01",
+      "front": "为什么要分析算法效率？",
+      "back": "同一问题不同算法效率差几个数量级，需渐近度量。",
+      "tags": [
+        "基础"
+      ]
+    },
+    {
+      "id": "f003",
+      "chapterId": "ch01",
+      "front": "算法必须满足哪两个性质？",
+      "back": "正确性与有限性（有限步停机）。",
+      "tags": [
+        "基础"
+      ]
+    },
+    {
+      "id": "f004",
+      "chapterId": "ch02",
+      "front": "插入排序时间复杂度？",
+      "back": "最坏 Θ(n²)，最好 Θ(n)。",
+      "tags": [
+        "排序"
+      ]
+    },
+    {
+      "id": "f005",
+      "chapterId": "ch02",
+      "front": "归并排序递归式？",
+      "back": "T(n)=2T(n/2)+Θ(n)，解 Θ(n lg n)。",
+      "tags": [
+        "分治",
+        "排序"
+      ]
+    },
+    {
+      "id": "f006",
+      "chapterId": "ch02",
+      "front": "循环不变量的作用？",
+      "back": "在循环前后成立，用来证明算法正确。",
+      "tags": [
+        "证明"
+      ]
+    },
+    {
+      "id": "f007",
+      "chapterId": "ch03",
+      "front": "Θ(g(n)) 的定义？",
+      "back": "同时在 O(g) 与 Ω(g)，上下界都是常数倍。",
+      "tags": [
+        "渐近记号"
+      ]
+    },
+    {
+      "id": "f008",
+      "chapterId": "ch03",
+      "front": "o(g) 与 O(g) 的区别？",
+      "back": "o 严格小于（f/g→0），O 是上界。",
+      "tags": [
+        "渐近记号"
+      ]
+    },
+    {
+      "id": "f009",
+      "chapterId": "ch03",
+      "front": "f(n)=n³+n² 是哪个阶？",
+      "back": "Θ(n³)。",
+      "tags": [
+        "渐近记号"
+      ]
+    },
+    {
+      "id": "f010",
+      "chapterId": "ch04",
+      "front": "主方法三情况按什么分？",
+      "back": "比较 f(n) 与 n^{log_b a}。",
+      "tags": [
+        "递归式"
+      ]
+    },
+    {
+      "id": "f011",
+      "chapterId": "ch04",
+      "front": "T(n)=2T(n/2)+n 的解？",
+      "back": "Θ(n lg n)（情况 2）。",
+      "tags": [
+        "递归式"
+      ]
+    },
+    {
+      "id": "f012",
+      "chapterId": "ch04",
+      "front": "Strassen 矩阵乘法复杂度？",
+      "back": "Θ(n^{lg7})≈Θ(n^{2.81})。",
+      "tags": [
+        "分治"
+      ]
+    },
+    {
+      "id": "f013",
+      "chapterId": "ch05",
+      "front": "指示器随机变量的作用？",
+      "back": "把事件拆成 0/1 变量，用期望线性求期望。",
+      "tags": [
+        "概率"
+      ]
+    },
+    {
+      "id": "f014",
+      "chapterId": "ch05",
+      "front": "随机化算法的好处？",
+      "back": "把最坏情况变成概率小事件。",
+      "tags": [
+        "随机化"
+      ]
+    },
+    {
+      "id": "f015",
+      "chapterId": "ch05",
+      "front": "雇用问题期望解？",
+      "back": "Θ(ln n)。",
+      "tags": [
+        "概率"
+      ]
+    },
+    {
+      "id": "f016",
+      "chapterId": "ch06",
+      "front": "堆父结点 i 的左孩子下标？",
+      "back": "2i。",
+      "tags": [
+        "堆"
+      ]
+    },
+    {
+      "id": "f017",
+      "chapterId": "ch06",
+      "front": "建堆的时间？",
+      "back": "O(n)。",
+      "tags": [
+        "堆"
+      ]
+    },
+    {
+      "id": "f018",
+      "chapterId": "ch06",
+      "front": "堆排序复杂度？",
+      "back": "O(n lg n)，原地，不稳定。",
+      "tags": [
+        "排序",
+        "堆"
+      ]
+    },
+    {
+      "id": "f019",
+      "chapterId": "ch07",
+      "front": "快排最坏复杂度？",
+      "back": "Θ(n²)。",
+      "tags": [
+        "排序"
+      ]
+    },
+    {
+      "id": "f020",
+      "chapterId": "ch07",
+      "front": "快排期望复杂度？",
+      "back": "Θ(n lg n)。",
+      "tags": [
+        "排序"
+      ]
+    },
+    {
+      "id": "f021",
+      "chapterId": "ch07",
+      "front": "随机化快排怎么做？",
+      "back": "随机选枢轴。",
+      "tags": [
+        "随机化",
+        "排序"
+      ]
+    },
+    {
+      "id": "f022",
+      "chapterId": "ch08",
+      "front": "比较排序最坏下界？",
+      "back": "Ω(n lg n)。",
+      "tags": [
+        "排序",
+        "下界"
+      ]
+    },
+    {
+      "id": "f023",
+      "chapterId": "ch08",
+      "front": "计数排序适用条件？",
+      "back": "键是范围 [0,k] 的整数。",
+      "tags": [
+        "排序"
+      ]
+    },
+    {
+      "id": "f024",
+      "chapterId": "ch08",
+      "front": "基数排序按什么顺序？",
+      "back": "从最低位到最高位，每用稳定排序。",
+      "tags": [
+        "排序"
+      ]
+    },
+    {
+      "id": "f025",
+      "chapterId": "ch09",
+      "front": "期望线性时间选择基于什么？",
+      "back": "随机选枢轴，递归只进一边。",
+      "tags": [
+        "顺序统计"
+      ]
+    },
+    {
+      "id": "f026",
+      "chapterId": "ch09",
+      "front": "最坏线性时间选择叫？",
+      "back": "BFPRT（中位数的中位数）。",
+      "tags": [
+        "顺序统计"
+      ]
+    },
+    {
+      "id": "f027",
+      "chapterId": "ch09",
+      "front": "同时找最大最小最少几次比较？",
+      "back": "⌊3n/2⌋。",
+      "tags": [
+        "顺序统计"
+      ]
+    },
+    {
+      "id": "f028",
+      "chapterId": "ch10",
+      "front": "栈与队列规则？",
+      "back": "栈 LIFO，队列 FIFO。",
+      "tags": [
+        "数据结构"
+      ]
+    },
+    {
+      "id": "f029",
+      "chapterId": "ch10",
+      "front": "链表的缺点？",
+      "back": "不能随机访问，查找 O(n)。",
+      "tags": [
+        "数据结构"
+      ]
+    },
+    {
+      "id": "f030",
+      "chapterId": "ch10",
+      "front": "有根树的链表表示？",
+      "back": "父指针+左孩子右兄弟。",
+      "tags": [
+        "数据结构"
+      ]
+    },
+    {
+      "id": "f031",
+      "chapterId": "ch11",
+      "front": "散列表期望查找？",
+      "back": "O(1)。",
+      "tags": [
+        "散列"
+      ]
+    },
+    {
+      "id": "f032",
+      "chapterId": "ch11",
+      "front": "碰撞两种处理？",
+      "back": "拉链法与开放寻址。",
+      "tags": [
+        "散列"
+      ]
+    },
+    {
+      "id": "f033",
+      "chapterId": "ch11",
+      "front": "完全散列查询复杂度？",
+      "back": "最坏 O(1)。",
+      "tags": [
+        "散列"
+      ]
+    },
+    {
+      "id": "f034",
+      "chapterId": "ch12",
+      "front": "BST 的性质？",
+      "back": "左<根<右。",
+      "tags": [
+        "BST"
+      ]
+    },
+    {
+      "id": "f035",
+      "chapterId": "ch12",
+      "front": "BST 中序遍历输出？",
+      "back": "按键升序。",
+      "tags": [
+        "BST"
+      ]
+    },
+    {
+      "id": "f036",
+      "chapterId": "ch12",
+      "front": "BST 最坏复杂度？",
+      "back": "O(n)（退化成链）。",
+      "tags": [
+        "BST"
+      ]
+    },
+    {
+      "id": "f037",
+      "chapterId": "ch13",
+      "front": "红黑树 5 条性质核心？",
+      "back": "根黑、叶黑、红父无红子、黑高相同。",
+      "tags": [
+        "红黑树"
+      ]
+    },
+    {
+      "id": "f038",
+      "chapterId": "ch13",
+      "front": "红黑树插入后怎么恢复？",
+      "back": "旋转+重新染色。",
+      "tags": [
+        "红黑树"
+      ]
+    },
+    {
+      "id": "f039",
+      "chapterId": "ch13",
+      "front": "红黑树高度上界？",
+      "back": "O(lg n)。",
+      "tags": [
+        "红黑树"
+      ]
+    },
+    {
+      "id": "f040",
+      "chapterId": "ch14",
+      "front": "顺序统计树支持什么？",
+      "back": "O(lg n) 选第 k 小。",
+      "tags": [
+        "扩张"
+      ]
+    },
+    {
+      "id": "f041",
+      "chapterId": "ch14",
+      "front": "怎么扩张数据结构？",
+      "back": "结点存额外信息，插入删除时维护。",
+      "tags": [
+        "扩张"
+      ]
+    },
+    {
+      "id": "f042",
+      "chapterId": "ch14",
+      "front": "区间树支持什么查询？",
+      "back": "O(lg n) 找重叠区间。",
+      "tags": [
+        "扩张"
+      ]
+    },
+    {
+      "id": "f043",
+      "chapterId": "ch15",
+      "front": "DP 两个适用条件？",
+      "back": "最优子结构+重叠子问题。",
+      "tags": [
+        "DP"
+      ]
+    },
+    {
+      "id": "f044",
+      "chapterId": "ch15",
+      "front": "矩阵链乘 DP 复杂度？",
+      "back": "O(n³)。",
+      "tags": [
+        "DP"
+      ]
+    },
+    {
+      "id": "f045",
+      "chapterId": "ch15",
+      "front": "LCS DP 状态？",
+      "back": "c[i,j] = s[1..i] 与 t[1..j] 的 LCS 长度。",
+      "tags": [
+        "DP"
+      ]
+    },
+    {
+      "id": "f046",
+      "chapterId": "ch16",
+      "front": "贪心比 DP 多要求什么？",
+      "back": "贪心选择性质。",
+      "tags": [
+        "贪心"
+      ]
+    },
+    {
+      "id": "f047",
+      "chapterId": "ch16",
+      "front": "活动选择贪心策略？",
+      "back": "每次选结束最早的兼容活动。",
+      "tags": [
+        "贪心"
+      ]
+    },
+    {
+      "id": "f048",
+      "chapterId": "ch16",
+      "front": "赫夫曼编码怎么建树？",
+      "back": "反复合并频率最小的两节点。",
+      "tags": [
+        "贪心",
+        "编码"
+      ]
+    },
+    {
+      "id": "f049",
+      "chapterId": "ch17",
+      "front": "摊还分析三种方法？",
+      "back": "聚合分析、核算法、势能法。",
+      "tags": [
+        "摊还"
+      ]
+    },
+    {
+      "id": "f050",
+      "chapterId": "ch17",
+      "front": "动态表扩张均摊代价？",
+      "back": "O(1)。",
+      "tags": [
+        "摊还"
+      ]
+    },
+    {
+      "id": "f051",
+      "chapterId": "ch17",
+      "front": "势能法的 Φ 是什么？",
+      "back": "人为定义的势能，摊还代价=实际+ΔΦ。",
+      "tags": [
+        "摊还"
+      ]
+    },
+    {
+      "id": "f052",
+      "chapterId": "ch18",
+      "front": "B 树为什么适合磁盘？",
+      "back": "结点大小对应磁盘块，一次 I/O 读一块，树矮。",
+      "tags": [
+        "B树"
+      ]
+    },
+    {
+      "id": "f053",
+      "chapterId": "ch18",
+      "front": "B 树与二叉树区别？",
+      "back": "B 树多路，每结点多孩子。",
+      "tags": [
+        "B树"
+      ]
+    },
+    {
+      "id": "f054",
+      "chapterId": "ch18",
+      "front": "B 树高度？",
+      "back": "O(lg n)，但实际层数 3~5。",
+      "tags": [
+        "B树"
+      ]
+    },
+    {
+      "id": "f055",
+      "chapterId": "ch19",
+      "front": "斐波那契堆减小键值均摊代价？",
+      "back": "O(1)。",
+      "tags": [
+        "斐波那契堆"
+      ]
+    },
+    {
+      "id": "f056",
+      "chapterId": "ch19",
+      "front": "斐波那契堆主要用于？",
+      "back": "Dijkstra/Prim 的优先队列。",
+      "tags": [
+        "斐波那契堆",
+        "图算法"
+      ]
+    },
+    {
+      "id": "f057",
+      "chapterId": "ch19",
+      "front": "斐波那契堆是堆吗？",
+      "back": "是，但松弛不即时合并，靠摊还。",
+      "tags": [
+        "斐波那契堆"
+      ]
+    },
+    {
+      "id": "f058",
+      "chapterId": "ch20",
+      "front": "vEB 树操作复杂度？",
+      "back": "O(lg lg u)。",
+      "tags": [
+        "vEB"
+      ]
+    },
+    {
+      "id": "f059",
+      "chapterId": "ch20",
+      "front": "vEB 适用什么键？",
+      "back": "整数键且域 u 不太大。",
+      "tags": [
+        "vEB"
+      ]
+    },
+    {
+      "id": "f060",
+      "chapterId": "ch20",
+      "front": "vEB 怎么递归？",
+      "back": "分 √u 个簇，每簇再 vEB。",
+      "tags": [
+        "vEB"
+      ]
+    },
+    {
+      "id": "f061",
+      "chapterId": "ch21",
+      "front": "并查集两种优化？",
+      "back": "按秩合并+路径压缩。",
+      "tags": [
+        "并查集"
+      ]
+    },
+    {
+      "id": "f062",
+      "chapterId": "ch21",
+      "front": "并查集近似复杂度？",
+      "back": "O(α(n)) 几乎常数。",
+      "tags": [
+        "并查集"
+      ]
+    },
+    {
+      "id": "f063",
+      "chapterId": "ch21",
+      "front": "Kruskal 用并查集干什么？",
+      "back": "判断加边是否成环。",
+      "tags": [
+        "并查集",
+        "图算法"
+      ]
+    },
+    {
+      "id": "f064",
+      "chapterId": "ch22",
+      "front": "BFS 用什么数据结构？",
+      "back": "队列。",
+      "tags": [
+        "图搜索"
+      ]
+    },
+    {
+      "id": "f065",
+      "chapterId": "ch22",
+      "front": "DFS 用什么？",
+      "back": "栈（或递归）。",
+      "tags": [
+        "图搜索"
+      ]
+    },
+    {
+      "id": "f066",
+      "chapterId": "ch22",
+      "front": "拓扑排序怎么得到？",
+      "back": "按 DFS 完成时间 f 从大到小输出。",
+      "tags": [
+        "图搜索"
+      ]
+    },
+    {
+      "id": "f067",
+      "chapterId": "ch23",
+      "front": "MST 恰好多少条边？",
+      "back": "|V|−1。",
+      "tags": [
+        "MST"
+      ]
+    },
+    {
+      "id": "f068",
+      "chapterId": "ch23",
+      "front": "Kruskal 用什么防环？",
+      "back": "并查集 FIND-SET。",
+      "tags": [
+        "MST",
+        "并查集"
+      ]
+    },
+    {
+      "id": "f069",
+      "chapterId": "ch23",
+      "front": "Prim 用什么数据结构？",
+      "back": "最小优先队列。",
+      "tags": [
+        "MST",
+        "堆"
+      ]
+    },
+    {
+      "id": "f070",
+      "chapterId": "ch24",
+      "front": "松弛操作是什么？",
+      "back": "d[u]+w(u,v)<d[v] 就更新 d[v]。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f071",
+      "chapterId": "ch24",
+      "front": "Dijkstra 要求边权？",
+      "back": "非负。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f072",
+      "chapterId": "ch24",
+      "front": "Bellman-Ford 复杂度？",
+      "back": "O(VE)，容负权边。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f073",
+      "chapterId": "ch25",
+      "front": "Floyd-Warshall 复杂度？",
+      "back": "Θ(n³)。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f074",
+      "chapterId": "ch25",
+      "front": "Johnson 怎么处理负权边？",
+      "back": "势能 h 重赋权 w̃=w+h[u]−h[v]。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f075",
+      "chapterId": "ch25",
+      "front": "重赋权改变最短路吗？",
+      "back": "不改变，h 项首尾相消。",
+      "tags": [
+        "最短路"
+      ]
+    },
+    {
+      "id": "f076",
+      "chapterId": "ch26",
+      "front": "最大流-最小割定理？",
+      "back": "最大流值=最小 s-t 割容量。",
+      "tags": [
+        "最大流"
+      ]
+    },
+    {
+      "id": "f077",
+      "chapterId": "ch26",
+      "front": "残留网络反向边作用？",
+      "back": "表示可退流（撤销之前的流）。",
+      "tags": [
+        "最大流"
+      ]
+    },
+    {
+      "id": "f078",
+      "chapterId": "ch26",
+      "front": "Edmonds-Karp 怎么选增广路？",
+      "back": "BFS 选最短路径。",
+      "tags": [
+        "最大流"
+      ]
+    },
+    {
+      "id": "f079",
+      "chapterId": "ch27",
+      "front": "工作量 T₁ 指什么？",
+      "back": "所有线程指令数之和。",
+      "tags": [
+        "多线程"
+      ]
+    },
+    {
+      "id": "f080",
+      "chapterId": "ch27",
+      "front": "持续时间 T∞ 指什么？",
+      "back": "关键路径长度。",
+      "tags": [
+        "多线程"
+      ]
+    },
+    {
+      "id": "f081",
+      "chapterId": "ch27",
+      "front": "spawn 与 sync 区别？",
+      "back": "spawn 派活不等；sync 等派出的人回来。",
+      "tags": [
+        "多线程"
+      ]
+    },
+    {
+      "id": "f082",
+      "chapterId": "ch28",
+      "front": "LUP 分解是什么？",
+      "back": "PA=LU，下三角×上三角×置换。",
+      "tags": [
+        "矩阵"
+      ]
+    },
+    {
+      "id": "f083",
+      "chapterId": "ch28",
+      "front": "为什么要选主元？",
+      "back": "避免除以接近 0 的数放大误差。",
+      "tags": [
+        "矩阵"
+      ]
+    },
+    {
+      "id": "f084",
+      "chapterId": "ch28",
+      "front": "对称正定矩阵可分解为？",
+      "back": "A=LLᵀ（Cholesky）。",
+      "tags": [
+        "矩阵"
+      ]
+    },
+    {
+      "id": "f085",
+      "chapterId": "ch29",
+      "front": "LP 标准型？",
+      "back": "max cᵀx, Ax≤b, x≥0。",
+      "tags": [
+        "线性规划"
+      ]
+    },
+    {
+      "id": "f086",
+      "chapterId": "ch29",
+      "front": "单纯形法怎么搜？",
+      "back": "沿可行域顶点爬到更优相邻顶点。",
+      "tags": [
+        "线性规划"
+      ]
+    },
+    {
+      "id": "f087",
+      "chapterId": "ch29",
+      "front": "强对偶说什么？",
+      "back": "原问题与对偶问题最优值相等。",
+      "tags": [
+        "线性规划"
+      ]
+    },
+    {
+      "id": "f088",
+      "chapterId": "ch30",
+      "front": "FFT 把 DFT 复杂度降到？",
+      "back": "O(n lg n)。",
+      "tags": [
+        "FFT"
+      ]
+    },
+    {
+      "id": "f089",
+      "chapterId": "ch30",
+      "front": "多项式乘法流水线？",
+      "back": "系数→点值（FFT）→点乘→逆 FFT→系数。",
+      "tags": [
+        "FFT"
+      ]
+    },
+    {
+      "id": "f090",
+      "chapterId": "ch30",
+      "front": "FFT 分治利用什么？",
+      "back": "ωₖ² 是 n/2 次单位复根。",
+      "tags": [
+        "FFT"
+      ]
+    },
+    {
+      "id": "f091",
+      "chapterId": "ch31",
+      "front": "欧几里得算法递推？",
+      "back": "gcd(a,b)=gcd(b,a mod b)。",
+      "tags": [
+        "数论"
+      ]
+    },
+    {
+      "id": "f092",
+      "chapterId": "ch31",
+      "front": "RSA 安全依赖于？",
+      "back": "大整数因子分解难。",
+      "tags": [
+        "数论",
+        "RSA"
+      ]
+    },
+    {
+      "id": "f093",
+      "chapterId": "ch31",
+      "front": "快速幂复杂度？",
+      "back": "O(lg b) 次模乘。",
+      "tags": [
+        "数论"
+      ]
+    },
+    {
+      "id": "f094",
+      "chapterId": "ch32",
+      "front": "Rabin-Karp 期望复杂度？",
+      "back": "O(n+m)。",
+      "tags": [
+        "字符串匹配"
+      ]
+    },
+    {
+      "id": "f095",
+      "chapterId": "ch32",
+      "front": "KMP 前缀函数是什么？",
+      "back": "前 q 字符的最长真前后缀长度。",
+      "tags": [
+        "字符串匹配",
+        "KMP"
+      ]
+    },
+    {
+      "id": "f096",
+      "chapterId": "ch32",
+      "front": "KMP 失配时主串指针回退吗？",
+      "back": "不回退。",
+      "tags": [
+        "字符串匹配",
+        "KMP"
+      ]
+    },
+    {
+      "id": "f097",
+      "chapterId": "ch33",
+      "front": "叉积符号判断什么？",
+      "back": "转向（左/右/共线）。",
+      "tags": [
+        "计算几何"
+      ]
+    },
+    {
+      "id": "f098",
+      "chapterId": "ch33",
+      "front": "Graham 凸包复杂度？",
+      "back": "O(n lg n)（排序是瓶颈）。",
+      "tags": [
+        "计算几何"
+      ]
+    },
+    {
+      "id": "f099",
+      "chapterId": "ch33",
+      "front": "最近点对合并时每个点比几个邻居？",
+      "back": "7 个。",
+      "tags": [
+        "计算几何"
+      ]
+    },
+    {
+      "id": "f100",
+      "chapterId": "ch34",
+      "front": "P 与 NP 区别？",
+      "back": "P 多项式可解；NP 多项式可验证答案。",
+      "tags": [
+        "NP"
+      ]
+    },
+    {
+      "id": "f101",
+      "chapterId": "ch34",
+      "front": "NPC 证明靠什么？",
+      "back": "把已知 NPC 问题多项式归约到新问题。",
+      "tags": [
+        "NP"
+      ]
+    },
+    {
+      "id": "f102",
+      "chapterId": "ch34",
+      "front": "第一个 NPC 问题是？",
+      "back": "SAT（Cook-Levin 定理）。",
+      "tags": [
+        "NP"
+      ]
+    },
+    {
+      "id": "f103",
+      "chapterId": "ch35",
+      "front": "顶点覆盖近似比？",
+      "back": "2。",
+      "tags": [
+        "近似算法"
+      ]
+    },
+    {
+      "id": "f104",
+      "chapterId": "ch35",
+      "front": "三角不等式下 TSP 近似比？",
+      "back": "2（MST 前序遍历）。",
+      "tags": [
+        "近似算法"
+      ]
+    },
+    {
+      "id": "f105",
+      "chapterId": "ch35",
+      "front": "FPTAS 是什么？",
+      "back": "完全多项式近似方案，对 1/ε 也多项式。",
+      "tags": [
+        "近似算法"
+      ]
+    },
+    {
+      "id": "f106",
+      "chapterId": "ch36",
+      "front": "Σ k 的渐近阶？",
+      "back": "Θ(n²)。",
+      "tags": [
+        "求和"
+      ]
+    },
+    {
+      "id": "f107",
+      "chapterId": "ch36",
+      "front": "调和数 Hₙ 的阶？",
+      "back": "Θ(lg n)。",
+      "tags": [
+        "求和"
+      ]
+    },
+    {
+      "id": "f108",
+      "chapterId": "ch36",
+      "front": "Σ(1/2)ᵏ = ?",
+      "back": "2。",
+      "tags": [
+        "求和"
+      ]
+    },
+    {
+      "id": "f109",
+      "chapterId": "ch37",
+      "front": "自反+对称+传递叫？",
+      "back": "等价关系。",
+      "tags": [
+        "离散数学"
+      ]
+    },
+    {
+      "id": "f110",
+      "chapterId": "ch37",
+      "front": "自由树恰好多少边？",
+      "back": "|V|−1。",
+      "tags": [
+        "离散数学",
+        "树"
+      ]
+    },
+    {
+      "id": "f111",
+      "chapterId": "ch37",
+      "front": "既单又满的函数叫？",
+      "back": "双射。",
+      "tags": [
+        "离散数学"
+      ]
+    },
+    {
+      "id": "f112",
+      "chapterId": "ch38",
+      "front": "期望线性要求独立吗？",
+      "back": "不要求。",
+      "tags": [
+        "概率"
+      ]
+    },
+    {
+      "id": "f113",
+      "chapterId": "ch38",
+      "front": "二项分布 b(k;n,p) 期望？",
+      "back": "np。",
+      "tags": [
+        "概率"
+      ]
+    },
+    {
+      "id": "f114",
+      "chapterId": "ch38",
+      "front": "方差公式？",
+      "back": "Var[X]=E[X²]−(E[X])²。",
+      "tags": [
+        "概率"
+      ]
+    },
+    {
+      "id": "f115",
+      "chapterId": "ch39",
+      "front": "矩阵可逆当且仅当？",
+      "back": "det(A)≠0。",
+      "tags": [
+        "矩阵"
+      ]
+    },
+    {
+      "id": "f116",
+      "chapterId": "ch39",
+      "front": "(AB)ᵀ = ?",
+      "back": "BᵀAᵀ。",
+      "tags": [
+        "矩阵"
+      ]
+    },
+    {
+      "id": "f117",
+      "chapterId": "ch39",
+      "front": "矩阵乘法交换吗？",
+      "back": "不交换，AB≠BA。",
+      "tags": [
+        "矩阵"
+      ]
+    }
+  ]
+}
